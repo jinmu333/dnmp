@@ -1,4 +1,6 @@
-# DNMP（Docker + Nginx + MySQL + PHP7/5 + Redis）是一款全功能的**LNMP一键安装程序**
+# DNMP
+
+(Docker + Nginx + MySQL + PHP7/5) **LNMP一键安装程序**
 
 ## 1.目录结构
 
@@ -36,7 +38,7 @@ docker build -f Dockerfile -t dnmp_php72:1.0 .
 docker-compose -f docker-compose.yml up
 ```
 
-> 访问在浏览器中访问：`http://localhost`，PHP代码：`./www/localhost/index.php`文件。
+> 访问在浏览器中访问：[http://localhost](http://localhost)，PHP代码：`./www/localhost/index.php`文件。
 
 ## 2.PHP和扩展
 
