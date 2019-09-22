@@ -2,6 +2,7 @@
 
 echo '<h1 style="text-align: center;">欢迎使用DNMP！</h1>';
 echo '<h2>版本信息</h2>';
+echo '<h2>我佛了</h2>';
 
 echo '<ul>';
 echo '<li>PHP版本：', PHP_VERSION, '</li>';
