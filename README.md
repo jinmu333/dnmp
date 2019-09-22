@@ -139,10 +139,7 @@ log-error               = /var/lib/mysql/mysql.error.log
 ### 7.1 phpMyAdmin
 
 phpMyAdmin容器映射到主机的端口地址是：`8080`，所以主机上访问phpMyAdmin的地址是：
-```
-
-http://localhost:8080
-```
+[http://localhost:8080](http://localhost:8080)
 
 MySQL连接信息：
 
@@ -165,7 +162,7 @@ MySQL连接信息：
 
 参考这个issue：[https://github.com/yeszao/dnmp/issues/91](https://github.com/yeszao/dnmp/issues/91)
 
-### 9.2 Docker使用cron定时任务 
+### 9.2 Docker使用cron定时任务
 
 [Docker使用cron定时任务](https://www.awaimai.com/2615.html)
 
